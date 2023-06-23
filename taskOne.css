@@ -1,0 +1,74 @@
+/* 
+.learn{
+    margin: 250px;
+}
+
+.firstButton{
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+.location{
+    border: 1px solid black;
+    
+}
+.container { display: flex;}
+.learn{flex: 50%;}
+.section2{flex: 50%;}
+.location{
+    text-align: center;
+    display: flex;
+} */
+body {
+  background-image: url(./images/bg-intro-desktop.png);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.left-side,.right-side{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Try{
+    background-color: blue;
+    height: 25px;
+    text-align: center;
+    width: 370px;
+    border-radius: 5px;
+}
+.Learn{
+    color: aliceblue;
+}
+.But{
+    color: aliceblue;
+}
+.Try{
+    color:aliceblue;
+}
+.List{
+    background-color: aliceblue;
+    width: 370px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px,20px;
+    
+    
+
+}
+.List input{
+    margin-bottom: 20px;
+}
+.claim{
+    background-color: aqua;
+    border-radius: 3px;
+}
+
